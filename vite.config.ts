@@ -138,7 +138,7 @@ export default ({ mode }) => {
       //   }
       // })
     ],
-    // 预加载项目必需的组件
+    // 预加载项目必需的组件,提升开发环境中的加载速度
     optimizeDeps: {
       include: [
         'vue',

@@ -112,6 +112,11 @@
       </div>
     </div>
   </div>
+  <!-- 备案信息,暂时先这么用,以后再改 -->
+  <div class="info" style="text-align: center !important; line-height: 10vh !important">
+    <span>©2025 studyisland.xyz &nbsp; &nbsp; &nbsp;</span>
+    <a href="https://beian.miit.gov.cn/" target="_blank">晋ICP备2025055007号-1</a>
+  </div>
 </template>
 
 <script setup lang="ts">

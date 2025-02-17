@@ -1,5 +1,5 @@
 {
-  "name": "vue-ts-vite-demo",
+  "name": "study-island-management",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite --open",

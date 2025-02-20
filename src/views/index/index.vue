@@ -54,9 +54,20 @@
     <!-- 水印组件 -->
     <Watermark :visible="watermarkVisible"></Watermark>
     <!-- 备案信息,暂时先这么用,以后再改 -->
-    <div class="info" style="text-align: center !important; line-height: 10vh !important">
+    <div class="info" style=" line-height: 10vh !important;text-align: center !important">
       <span>©2025 studyisland.xyz &nbsp; &nbsp; &nbsp;</span>
-      <a href="https://beian.miit.gov.cn/" target="_blank">晋ICP备2025055007号-1</a>
+      <img src="@/assets/beian_logo.png" alt="" style="width: 20px; height: 20px" />
+      <a
+        href="https://beian.mps.gov.cn/#/query/webSearch?code=51019002007740"
+        rel="noreferrer"
+        target="_blank"
+        style="text-decoration: none"
+      >
+        川公网安备51019002007740号 &nbsp; &nbsp; &nbsp;
+      </a>
+      <a href="https://beian.miit.gov.cn/" target="_blank" style="text-decoration: none">
+        晋ICP备2025055007号-1
+      </a>
     </div>
   </div>
 </template>
